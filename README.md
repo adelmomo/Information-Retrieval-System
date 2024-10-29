@@ -31,20 +31,20 @@ The system uses the **aesopa10** dataset, a collection of Aesop's fables. This d
 
 - **Information Retrieval System Evaluation**: The IR system is evaluated using two critical metrics:
   - **Precision**: Measures the proportion of relevant documents retrieved out of the total documents retrieved.
-    \[
-    \text{Precision} = \frac{\text{Number of Relevant Documents Retrieved}}{\text{Total Number of Documents Retrieved}}
-    \]
+    `Precision = (Number of Relevant Documents Retrieved) / (Total Number of Documents Retrieved)`
 
   - **Recall**: Measures the proportion of relevant documents retrieved out of the total relevant documents available.
-    \[
-    \text{Recall} = \frac{\text{Number of Relevant Documents Retrieved}}{\text{Total Number of Relevant Documents}}
-    \]
+    `Recall = (Number of Relevant Documents Retrieved) / (Total Number of Relevant Documents)`
 
 - **Query Processing Time**: Users can toggle between retrieval models to observe and compare the time taken by each model to retrieve documents, displayed as `Query Processing Time` in the interface.
 
 ## Information Retrieval System Demo
 
 A demonstration of the Information Retrieval System is available, showcasing the retrieval models, evaluation metrics, and query processing comparisons.
+
+
+https://github.com/user-attachments/assets/e575f2a1-c3b1-4cfc-949b-095cea069384
+
 
 ## Prerequisites
 
